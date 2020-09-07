@@ -1,0 +1,5 @@
+2020-08-07 03:29:27,285 INFO Let the games begin
+2020-08-07 03:29:32,061 INFO Using hflip aug with params 0.5
+2020-08-07 03:29:32,063 INFO Using rscale_crop aug with params [1024, 1024]
+2020-08-07 03:29:36,392 INFO Loading model and optimizer from checkpoint './runs_camvid/hardnet/cur/hardnet_camvid_checkpoint1.pkl'
+2020-08-07 03:29:57,990 INFO Loaded checkpoint './runs_camvid/hardnet/cur/hardnet_camvid_checkpoint1.pkl' (iter 1650)

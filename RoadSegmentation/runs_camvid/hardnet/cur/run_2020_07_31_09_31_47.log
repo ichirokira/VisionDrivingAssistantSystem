@@ -1,0 +1,14 @@
+2020-07-31 09:31:47,929 INFO Let the games begin
+2020-07-31 09:31:48,423 INFO Using hflip aug with params 0.5
+2020-07-31 09:31:48,425 INFO Using rscale_crop aug with params [1024, 1024]
+2020-07-31 09:32:05,542 INFO Using sgd optimizer
+2020-07-31 09:32:05,549 INFO Using bootstrapped_cross_entropy with {'min_K': 4096, 'loss_th': 0.3, 'size_average': True} params
+2020-07-31 09:32:07,732 INFO Let the games begin
+2020-07-31 09:32:08,300 INFO Using hflip aug with params 0.5
+2020-07-31 09:32:08,302 INFO Using rscale_crop aug with params [1024, 1024]
+2020-07-31 09:41:28,186 INFO Using hflip aug with params 0.5
+2020-07-31 09:41:28,188 INFO Using rscale_crop aug with params [1024, 1024]
+2020-07-31 09:41:48,379 INFO Using hflip aug with params 0.5
+2020-07-31 09:41:48,380 INFO Using rscale_crop aug with params [1024, 1024]
+2020-07-31 09:42:05,760 INFO Using hflip aug with params 0.5
+2020-07-31 09:42:05,762 INFO Using rscale_crop aug with params [1024, 1024]

@@ -1,0 +1,35 @@
+model:
+    arch: hardnet
+data:
+    dataset: kitti_road
+    train_split: training
+    val_split: val
+    img_rows: 1024
+    img_cols: 1024
+    path: /content/drive/My Drive/FCHarDNet_CamVid/data_road
+    sbd_path: /content/drive/My Drive/FCHarDNet_CamVid/data_road
+training:
+    train_iters: 10000
+    batch_size: 8
+    val_interval: 50
+    n_workers: 4
+    print_interval: 10
+    augmentations:
+        hflip: 0.5
+        rscale_crop: [1024, 1024]
+    optimizer:
+        name: 'sgd'
+        lr: 0.02
+        weight_decay: 0.0005
+        momentum: 0.9
+    loss:
+        name: 'bootstrapped_cross_entropy'
+        min_K: 4096
+        loss_th: 0.3
+        size_average: True
+    lr_schedule: 
+        name: 'poly_lr'
+        max_iter: 90000
+    resume: ./runs_kitti/hardnet_new/cur/hardnet_kitti_road_checkpoint1.pkl
+    finetune: None    
+

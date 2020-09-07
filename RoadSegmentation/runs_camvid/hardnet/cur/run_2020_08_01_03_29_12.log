@@ -1,0 +1,9 @@
+2020-08-01 03:29:12,155 INFO Let the games begin
+2020-08-01 03:29:28,778 INFO Using hflip aug with params 0.5
+2020-08-01 03:29:28,779 INFO Using rscale_crop aug with params [1024, 1024]
+2020-08-01 03:29:54,087 INFO Using hflip aug with params 0.5
+2020-08-01 03:29:54,088 INFO Using rscale_crop aug with params [1024, 1024]
+2020-08-01 03:34:01,385 INFO Using hflip aug with params 0.5
+2020-08-01 03:34:01,386 INFO Using rscale_crop aug with params [1024, 1024]
+2020-08-01 03:34:40,645 INFO Using hflip aug with params 0.5
+2020-08-01 03:34:40,646 INFO Using rscale_crop aug with params [1024, 1024]
